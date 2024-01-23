@@ -1,5 +1,11 @@
+import jakarta.persistence.*;
 
+@Entity
+@Table(name = "PERSONA")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 class Persona {
+    @Id
+    @Column(name = "ident")
     private int id;
     private String nom;
 

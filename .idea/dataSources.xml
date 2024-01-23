@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@192.168.56.102" uuid="19e8fdec-8a36-4926-8e0b-03e8fcacd60c">
+    <data-source source="LOCAL" name="herencia_single" uuid="20b99238-60cb-4567-b6ff-46db1a9e1cf5">
       <driver-ref>oracle</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/jinsh/IdeaProjects/m2-uf2-p4/src/main/resources/META-INF/persistence.xml</remarks>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@192.168.56.102:1521:CFINFO</jdbc-url>
