@@ -32,6 +32,6 @@ public class Main {
         em.persist(becari);
         em.persist(director);
         transaction.commit();
-
+        
     }
 }
